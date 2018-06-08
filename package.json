@@ -1,0 +1,11 @@
+{
+  "name": "itunes-songs-search",
+  "version": "1.0.0",
+  "description": "Simple single-page application written in JavaScript which allows you to search for songs in the iTunes Store.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Goraf",
+  "license": "ISC"
+}
