@@ -9,6 +9,28 @@
     <meta name="keywords" content="iTunes Store, songs">
 </head>
 <body>
-    
+    <header class="page-header">
+        <div class="logo">
+            <a href="https://www.pgs-soft.com" title="PGS Software">
+                <img src="logo.png" alt="PGS Software">
+            </a>
+        </div>
+    </header>
+    <section class="page-cover">
+        <h1 class="page-cover__title">iTunes api example</h1>
+        <form class="search-form">
+            <input class="search-form__input" type="text" id="search-phrase" placeholder="Search songs..">
+            <button class="search-form__button" type="submit">search</button>
+            <label class="search-form__label" for="search-phrase">Search by song title, author, song number, lyrics, catalog or copyright owner.</label>
+        </form>
+    </section>
+    <div class="search-results">
+        <div class="search-results__summary"></div>
+        <div class="songs"></div>
+        <div class="pagination"></div>
+    </div>
+    <footer class="page-footer">
+        <div class="copyright">Powered by PGS</div>
+    </footer>
 </body>
 </html>
