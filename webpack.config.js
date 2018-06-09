@@ -9,5 +9,17 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "bundle.js"
   },
-  devtool: "eval-source-map"
+  devtool: "eval-source-map",
+  module: {
+    rules: [
+      {
+        test: /\.js?$/,
+        exclude: /node_modules/,
+        loader: "babel-loader",
+        options: {
+          presets: ["env"]
+        }
+      }
+    ]
+  }
 }
