@@ -21,9 +21,11 @@
     <section class="page-cover">
         <h1 class="page-cover__title">iTunes api example</h1>
         <form class="search-form">
-            <input class="search-form__input" type="text" id="search-phrase" placeholder="Search songs..">
-            <button class="search-form__button" type="submit">search</button>
-            <label class="search-form__label" for="search-phrase">Search by song title, author, song number, lyrics, catalog or copyright owner.</label>
+            <div class="search-form-row">
+                <input class="search-form__input" type="search" placeholder="Search songs.." aria-label="Search" aria-describedby="search-form__info">
+                <button class="button search-form__button" type="submit">search</button>
+            </div>
+            <p class="search-form__info" id="search-form__info">Search by song title, author, song number, lyrics, catalog or copyright owner.</p>
         </form>
     </section>
     <div class="search-results">
