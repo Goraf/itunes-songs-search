@@ -181,3 +181,37 @@ button, input {
 .pagination__button--next::after {
     content: " >>"
 }
+
+.page-footer {
+    background-color: #2d2d2d;
+    height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    width: 260px;
+    position: relative;
+}
+
+.copyright::before {
+    content: "";
+    border-bottom: 1px solid #ffffff;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+}
+
+.copyright__text {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    font-size: 1.125rem;
+    font-weight: 300;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    width: 150px;
+}
+
