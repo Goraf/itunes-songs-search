@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>iTunes Songs Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Simple application which allows you to search for songs in the iTunes Store.">
+    <meta name="keywords" content="iTunes Store, songs">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&amp;subset=latin-ext" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+<script type="text/javascript" src="bundle.js" defer></script></head>
+<body>
+    <header class="page-header">
+        <div class="logo">
+            <a href="https://www.pgs-soft.com" title="PGS Software">
+                <img src="logo.png" alt="PGS Software">
+            </a>
+        </div>
+    </header>
+    <section class="page-cover">
+        <h1 class="page-cover__title">iTunes api example</h1>
+        <form class="search-form">
+            <div class="search-form-row">
+                <input class="search-form__input" type="search" placeholder="Search songs.." aria-label="Search" aria-describedby="search-form__info">
+                <button class="button search-form__button" type="submit">search</button>
+            </div>
+            <p class="search-form__info" id="search-form__info">Search by song title, author, song number, lyrics, catalog or copyright owner.</p>
+        </form>
+    </section>
+    <div class="search-results">
+        <div class="search-results__summary">Found 67 songs</div>
+        <div class="songs">
+            <div class="song-card">
+                <img src="cover.png" alt="" class="song-card__album-cover">
+                <div class="song-card-body">
+                    <h2 class="song-card__song-title">Castle on the Hill</h2>
+                    <p>By Ed Sheeran</p>
+                </div>
+            </div>
+            <div class="song-card">
+                <img src="cover.png" alt="" class="song-card__album-cover">
+                <div class="song-card-body">
+                    <h2 class="song-card__song-title">Castle on the Hill</h2>
+                    <p>By Ed Sheeran</p>
+                </div>
+            </div>
+            <div class="song-card">
+                <img src="cover.png" alt="" class="song-card__album-cover">
+                <div class="song-card-body">
+                    <h2 class="song-card__song-title">Castle on the Hill</h2>
+                    <p>By Ed Sheeran</p>
+                </div>
+            </div>
+            <div class="song-card">
+                <img src="cover.png" alt="" class="song-card__album-cover">
+                <div class="song-card-body">
+                    <h2 class="song-card__song-title">Castle on the Hill</h2>
+                    <p>By Ed Sheeran</p>
+                </div>
+            </div>
+            <div class="song-card">
+                <img src="cover.png" alt="" class="song-card__album-cover">
+                <div class="song-card-body">
+                    <h2 class="song-card__song-title">Castle on the Hill</h2>
+                    <p>By Ed Sheeran</p>
+                </div>
+            </div>
+            <div class="song-card">
+                <img src="cover.png" alt="" class="song-card__album-cover">
+                <div class="song-card-body">
+                    <h2 class="song-card__song-title">Castle on the Hill</h2>
+                    <p>By Ed Sheeran</p>
+                </div>
+            </div>
+            <div class="song-card">
+                <img src="cover.png" alt="" class="song-card__album-cover">
+                <div class="song-card-body">
+                    <h2 class="song-card__song-title">Castle on the Hill</h2>
+                    <p>By Ed Sheeran</p>
+                </div>
+            </div>
+            <div class="song-card">
+                <img src="cover.png" alt="" class="song-card__album-cover">
+                <div class="song-card-body">
+                    <h2 class="song-card__song-title">Castle on the Hill</h2>
+                    <p>By Ed Sheeran</p>
+                </div>
+            </div>
+            <div class="song-card">
+                <img src="cover.png" alt="" class="song-card__album-cover">
+                <div class="song-card-body">
+                    <h2 class="song-card__song-title">Castle on the Hill</h2>
+                    <p>By Ed Sheeran</p>
+                </div>
+            </div>
+        </div>
+        <div class="pagination">
+            <button class="button button--disabled pagination__button pagination__button--prev">prev</button>
+            <button class="button pagination__button pagination__button--next">next</button>
+        </div>
+    </div>
+    <footer class="page-footer">
+        <div class="copyright">
+            <p class="copyright__text">Powered by PGS</p>
+        </div>
+    </footer>
+</body>
+</html>
