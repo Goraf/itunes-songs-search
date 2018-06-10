@@ -95,6 +95,7 @@ button, input {
 .search-form__info {
     color: #ffffff;
     font-size: 0.875rem;
+    font-weight: 300;
     text-align: center;
 }
 
@@ -214,4 +215,3 @@ button, input {
     position: relative;
     width: 150px;
 }
-
