@@ -100,7 +100,8 @@ button, input {
 }
 
 .search-results{
-    padding: 10px 0;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 .search-results__summary {
@@ -121,11 +122,13 @@ button, input {
     align-items: center;
     padding: 20px;
     margin-bottom: 20px;
+    width: 300px;
 }
 
 .song-card-body {
     font-size: 0.938rem;
     text-align: center;
+    flex-grow: 1;
 }
 
 .song-card__album-cover {
@@ -142,6 +145,7 @@ button, input {
     background-size: 90% 1px;
     background-position: bottom center;
     padding-bottom: 5px;
+    margin-bottom: 4px;
 }
 
 .pagination {
